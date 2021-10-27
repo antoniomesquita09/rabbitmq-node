@@ -1,0 +1,15 @@
+{
+  "name": "rabbitmq-node",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "Antonio Mesquita",
+  "license": "MIT",
+  "scripts": {
+    "start:api": "node src/index.js",
+    "start:worker": "node src/worker.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "express": "^4.17.1"
+  }
+}
